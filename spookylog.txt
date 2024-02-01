@@ -1,3 +1,9 @@
 # Keeping track of things
 
-- 
+Wed 31 Jan 2024 10:54:21 PM EST  
+- gotta work on db for able
+- too many little projects, not enough big project
+- simpy seems really good. messed around w tensor products
+	https://docs.sympy.org/latest/tutorials/intro-tutorial/basic_operations.html
+- jupyter lab feels the best for coding
+
