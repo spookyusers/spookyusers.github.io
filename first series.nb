@@ -1,0 +1,144 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4170,        134]
+NotebookOptionsPosition[      3463,        113]
+NotebookOutlinePosition[      3871,        129]
+CellTagsIndexPosition[      3828,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Series", "[", 
+  RowBox[{
+   RowBox[{"Exp", "[", 
+    RowBox[{
+     RowBox[{"Exp", "[", "x", "]"}], "-", "1"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "12"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9117490193820753`*^9, 3.9117490589053583`*^9}, {
+  3.9117491355049763`*^9, 3.9117491688356223`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"9f335272-9810-479e-bf40-38ff6326541c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"1", "+", "x", "+", 
+   SuperscriptBox["x", "2"], "+", 
+   FractionBox[
+    RowBox[{"5", " ", 
+     SuperscriptBox["x", "3"]}], "6"], "+", 
+   FractionBox[
+    RowBox[{"5", " ", 
+     SuperscriptBox["x", "4"]}], "8"], "+", 
+   FractionBox[
+    RowBox[{"13", " ", 
+     SuperscriptBox["x", "5"]}], "30"], "+", 
+   FractionBox[
+    RowBox[{"203", " ", 
+     SuperscriptBox["x", "6"]}], "720"], "+", 
+   FractionBox[
+    RowBox[{"877", " ", 
+     SuperscriptBox["x", "7"]}], "5040"], "+", 
+   FractionBox[
+    RowBox[{"23", " ", 
+     SuperscriptBox["x", "8"]}], "224"], "+", 
+   FractionBox[
+    RowBox[{"1007", " ", 
+     SuperscriptBox["x", "9"]}], "17280"], "+", 
+   FractionBox[
+    RowBox[{"4639", " ", 
+     SuperscriptBox["x", "10"]}], "145152"], "+", 
+   FractionBox[
+    RowBox[{"22619", " ", 
+     SuperscriptBox["x", "11"]}], "1330560"], "+", 
+   FractionBox[
+    RowBox[{"4213597", " ", 
+     SuperscriptBox["x", "12"]}], "479001600"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", "x", "]"}], "13"],
+    SeriesData[$CellContext`x, 0, {}, 0, 13, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`x, 0, {1, 1, 1, 
+    Rational[5, 6], 
+    Rational[5, 8], 
+    Rational[13, 30], 
+    Rational[203, 720], 
+    Rational[877, 5040], 
+    Rational[23, 224], 
+    Rational[1007, 17280], 
+    Rational[4639, 145152], 
+    Rational[22619, 1330560], 
+    Rational[4213597, 479001600]}, 0, 13, 1],
+  Editable->False]], "Output",
+ CellChangeTimes->{3.911749032977813*^9, 3.911749170407262*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"fade3538-6494-49d8-a435-2d6474337f81"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"j", "!"}], " ", 
+    RowBox[{"Coefficient", "[", 
+     RowBox[{"%", ",", "x", ",", "j"}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"j", ",", "0", ",", "12"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.911749187132471*^9, 3.911749223750224*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"e35128a2-44b7-4cbf-aab0-4f5b741664a8"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "1", ",", "2", ",", "5", ",", "15", ",", "52", ",", "203", ",", 
+   "877", ",", "4140", ",", "21147", ",", "115975", ",", "678570", ",", 
+   "4213597"}], "}"}]], "Output",
+ CellChangeTimes->{3.9117492250509324`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"1a29acc9-2b45-4f9f-a140-470dde9ee24d"]
+}, Open  ]]
+},
+WindowSize->{569.25, 609.75},
+WindowMargins->{{Automatic, 411}, {18.75, Automatic}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"278fef2e-5fb1-4d2b-b658-93f3e7d5ccbf"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 432, 10, 28, "Input",ExpressionUUID->"9f335272-9810-479e-bf40-38ff6326541c"],
+Cell[1015, 34, 1642, 52, 90, "Output",ExpressionUUID->"fade3538-6494-49d8-a435-2d6474337f81"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2694, 91, 405, 10, 28, "Input",ExpressionUUID->"e35128a2-44b7-4cbf-aab0-4f5b741664a8"],
+Cell[3102, 103, 345, 7, 75, "Output",ExpressionUUID->"1a29acc9-2b45-4f9f-a140-470dde9ee24d"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
