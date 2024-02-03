@@ -1,2 +1,4 @@
 .localized
 .DS_Store
+.ipynb_checkpoints/task_tracker-checkpoint.ipynb
+.virtual_documents/
