@@ -7,3 +7,7 @@ Wed 31 Jan 2024 10:54:21 PM EST
 	https://docs.sympy.org/latest/tutorials/intro-tutorial/basic_operations.html
 - jupyter lab feels the best for coding
 
+Friday Feb 2
+- some chemistry, school, code
+- 
+
