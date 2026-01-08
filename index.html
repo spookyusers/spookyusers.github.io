@@ -16,65 +16,82 @@
       <section>
         <h2>Selected Projects</h2>
 
-        <h3>Michelson interferometer measurements</h3>
+        <h3>Experimental Physics</h3>
+
+        <h4>Michelson interferometer measurements</h4>
         <p>
-          Built, aligned, and operated a Michelson interferometer to perform precision optical measurements.
-          Used controlled mirror translation and fringe frequency analysis to measure the wavelength of a He-Ne laser,
-          and quantified changes in refractive index of air under varying pressure using a gas cell.
-          Additional measurements included determining the refractive index of a quartz slab via slab rotation.
-          The work involved photodiode and oscilloscope data acquisition, fringe counting, uncertainty propagation,
-          and analysis of systematic experimental limitations.
+          Built, aligned and operated a Michelson interferometer for precision optical measurements.
+          Measured the wavelength of a He-Ne laser and the refractive index of air under varying pressure
+          via fringe analysis, and determined the refractive index of a quartz slab using slab rotation, 
+          with photodiode and oscilloscope based data acquisition and uncertainty analysis.
         </p>
         <p>
           <a href="Modern_Interferometry.pdf" target="_blank" rel="noopener noreferrer">Lab report (PDF)</a>
         </p>
 
-        <h3>Zeeman Effect in Mercury and Neon Spectra</h3>
+        <h4>Zeeman Effect in Mercury and Neon Spectra</h4>
         <p>
-          Measured magnetic field induced splitting of atomic emission lines in mercury and neon using a high-resolution
-          Czerny-Turner grating spectrometer. Resolved both normal and anomalous Zeeman patterns and extracted effective
-          Lande g-factors from Gaussian fits to split spectral lines.
-          Achieved agreement with theory at the 1-5$ level, including geff ~2.0 for the normal Zeeman triplet and
-          reduced g-factors for anomalous transitions. Verified linear dependence of wavelength splitting on magnetic
-          field strength and used neon data to experimentally determine the electron charge-to-mass ratio.
+          Measured magnetic field induced splitting of atomic emission lines in mercury and neon using a high 
+          resolution Czerny-Turner grating spectrometer. Resolved both normal and anomolous Zeeman patterns, 
+          extracted effective Lande g-factors from Gaussian fits to split spectral lines, verified linear 
+          splitting with magnetic field, and used neon data to experimentally determine the electron charge 
+          to mass ratio, achieving agreement with theory at the 1-5% level.
         </p>
         <p>
           <a href="Zeeman_Effect_Lab.pdf" target="_blank" rel="noopener noreferrer">Lab report (PDF)</a>
         </p>
 
-        <h3>Faraday Rotation and Verdet Constant Measurement</h3>
+        <h4>Faraday Rotation and Verdet Constant Measurement</h4>
         <p>
-          Observed magneto-optical Faraday rotation in multiple glass samples under longitudinal magnetic fields.
-          Established Malus's Law baselines for polarized light transmission and measured rotation angles as a function
-          of applied field strength.
-          Extracted Verdet constants for three materials at red, yellow, and blue wavelengths, confirming linear Faraday
-          rotation (ϕ = V B d) and the expected increase in magnitude at shorter wavelengths. Data acquisition and 
-          analysis were performed using photodiode measurements and Python nonlinear fitting and regression.
+          Measured magneto-optical Faraday rotation in multiple glass samples and extracted wavelength 
+          dependent Verdet constants using photodiode measurements and Python based fitting, confirming linear 
+          Faraday rotation.
         </p>
         <p>
           <a href="Faraday_Effect_Lab.pdf" target="_blank" rel="noopener noreferrer">Lab report (PDF)</a>
         </p>
 
-        <h3>433 MHz Band Sensor Decoding with RTL-SDR</h3>
+        <h3>Independent / Technical Projects</h3>
+
+        <h4>433 MHz Band Sensor Decoding with RTL-SDR</h4>
         <p>
-          Used software-defined radio (RTL-SDR dongle) and rtl_433 to passively receive and decode 433.92 MHz transmissions
-          from consumer wireless devices in the local area.
-          Successfully captured and identified signals from multiple indoor/outdoor temperature/humidity sensors, soil
-          moisture/temperature probes, and a DSC wireless security door/window contact.
-          Built rtl_433 from source on Linux, tuned a dipole antenna, documented setup, raw captures, and analysis.
+          Used a software-defined radio (RTL-SDR) and rtl_433 to passively receive and decode 433.92 MHz transmissions
+          from consumer wireless devices. Captured and identified signals from environmental sensors and a 
+          wireless security contact, building rtl_433 from source on Linux, tuning a dipole antenna, and 
+          documenting raw captures and analysis.
         </p>
         <p>
           <a href="https://github.com/spookyusers/rtl-sdr-433mhz-neighborhood-sensors" target="_blank" rel="noopener noreferrer">GitHub repository</a>
         </p>
 
-        <h3>Automated Two-Slit Interference Scanning</h3>
+        <h4>Automated Two-Slit Interference Scanning</h4>
         <p>
           Designed and built an automated scanning system for Young's double-slit experiment using a motorized spinning mirror, photodiode, 
-          and oscilloscope. Spinning mirror reflects laser across a photodiode sensor to display the intensity of the overall interference
-          pattern on the oscilloscope.          
+          and oscilloscope. The rotating mirror swept the inteference pattern across a fixed detector, enabling a real-time visualization 
+          of fringe intensity on the oscilloscope.
         </p>
         <p>
           <a href="https://kymderriman.com/posts/interference-experiment/" target="_blank" rel="noopener noreferrer">Full write-up with code and results</a>
+        </p>
+        
+      </section>
+
+      <section>
+        <h2>Techniques and Tools</h2>
+        
+        <p><strong>Experimental Techniques:</strong>
+          Optical interferometry, atomic spectroscopy, polarization optics, fringe analysis, magnetic field calibration, 
+          uncertainty propagation, uncertainty analysis.
+        </p>
+
+        <p><strong>Instrumentation:</strong>
+          Grating spectrometers, photodiodes, oscilloscopes, electromagnets, Hall probes, laser sources, optical mounts and alignment hardware.
+        </p>
+
+        <p>
+          <strong>Data Analysis and Software:</strong>
+          Python (NumPy, SciPy, Matplotlib), nonlinear fitting and regression, Gaussian peak fitting, Linux-based toolchains, software-defined 
+          radio (RLT-SDR), MATLAB
         </p>
         
       </section>
